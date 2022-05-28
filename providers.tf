@@ -15,7 +15,7 @@ terraform {
 provider "aws" {
   region     = "us-east-1"
   assume_role {
-      role_arn = "arn:aws:iam::663380234130:role/samim_sts_role"
+      role_arn = "arn:aws:iam::AWS-AC-ID:role/samim_sts_role"
       session_name = "testing"
   }
 }
